@@ -41,5 +41,3 @@
 | **Flujo principal:** |<ol><li> El Despacho accede a la vista de edición de incidente.</li><li> El sistema muestra la información del incidente seleccionado.</li><li> El Despacho modifica la información del incidente (estado, recursos asignados, comentarios, etc.).</li><li> El Despacho confirma los cambios.</li><li> El sistema actualiza la información del incidente.</li><li> El sistema registra la acción en la bitácora de incidentes.</li></ol> |
 | **Postcondiciones:** | La información del incidente ha sido actualizada correctamente en el sistema y la bitácora de incidentes se ha actualizado automáticamente. |
 | **Excepciones:** |<ul><li> Si el Despacho cancela la edición, los cambios no se aplican.</li><li> Si ocurre un error al actualizar la información, se muestra un mensaje de error y se revierten los cambios.</li></ul> |
-
-Espero que esta información sea útil. Si necesitas más detalles o alguna otra cosa, no dudes en decirme.
