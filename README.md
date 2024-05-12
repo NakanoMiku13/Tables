@@ -1,5 +1,3 @@
-A continuación, te muestro cómo podrían ser las tablas descriptivas para los casos de uso que has mencionado:
-
 ### Caso de Uso: Vista para editar material
 
 | **Nombre:** | Vista para editar material |
@@ -18,9 +16,9 @@ A continuación, te muestro cómo podrían ser las tablas descriptivas para los 
 | **Actores:** | Despacho |
 | **Descripción:** | Este caso de uso permite al actor Despacho editar la información relacionada con la maquinaria disponible para combatir incendios. |
 | **Precondiciones:** | El actor Despacho ha iniciado sesión en el sistema y tiene permisos para editar maquinaria. |
-| **Flujo principal:** | - El Despacho accede a la vista de edición de maquinaria. - El sistema muestra la lista de maquinaria disponible. - El Despacho selecciona la maquinaria que desea editar. - El Despacho modifica la información de la maquinaria (nombre, tipo, capacidad, etc.). - El Despacho confirma los cambios. - El sistema actualiza la información de la maquinaria. - El sistema registra la acción en la bitácora de cambios. |
+| **Flujo principal:** |<ol><li> El Despacho accede a la vista de edición de maquinaria.</li><li> El sistema muestra la lista de maquinaria disponible.</li><li> El Despacho selecciona la maquinaria que desea editar.</li><li> El Despacho modifica la información de la maquinaria (nombre, tipo, capacidad, etc.).</li><li> El Despacho confirma los cambios.</li><li> El sistema actualiza la información de la maquinaria.</li><li> El sistema registra la acción en la bitácora de cambios.</li></ol> |
 | **Postcondiciones:** | La información de la maquinaria ha sido actualizada correctamente en el sistema. |
-| **Excepciones:** | - Si el Despacho cancela la edición, los cambios no se aplican. - Si ocurre un error al actualizar la información, se muestra un mensaje de error y se revierten los cambios. |
+| **Excepciones:** |<ul><li> Si el Despacho cancela la edición, los cambios no se aplican.</li><li> Si ocurre un error al actualizar la información, se muestra un mensaje de error y se revierten los cambios.</li></ul> |
 
 ### Caso de Uso: Vista para editar cuadrilla
 
